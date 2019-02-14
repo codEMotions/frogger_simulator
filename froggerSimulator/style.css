@@ -1,0 +1,40 @@
+body {
+    background-color: blanchedalmond;
+}
+
+header {
+    position:fixed;
+    left: 35%;
+    right: 35%;
+    text-align:center;
+    color:white;
+    background-color:black;
+    font-size:20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin:0;
+}
+
+#container {
+    background-color: #d0d0d0;
+    height:100000px;
+    width:100%;
+    overflow:auto;
+}
+
+aside {
+    background-color:#33FF66;
+    height:100%;
+}
+
+#leftGrass {
+    display:inline-block;
+    float: left;
+    width:25%;
+}
+
+#rightGrass {
+    display:inline-block;
+    float: right;
+    background-color: #33CC66; 
+    width:25%;         
+}
